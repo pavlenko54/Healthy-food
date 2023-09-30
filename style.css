@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
 	margin: 0;
@@ -34,14 +34,36 @@ body {
 }
 html {
 	font-size: 16px;
-}
+} */
+
+
+
 body {
+	background: #1A1A1A;
 	line-height: 1;
 	font-family: "Roboto";
-	background: #f5f5f5;
 }
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 	padding: 50px;
 }
+
+.hero__title{
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 7.2px;
+	text-transform: capitalize;	
+}
+
+.container{
+	width: 1110px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	}
