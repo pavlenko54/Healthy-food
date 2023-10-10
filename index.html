@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy food</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -13,22 +14,31 @@
     <div class="container">
 <div class="wrapper">
     <header class="header">
-<!-- <svg class="header__logo" width="25" height="24">
-<use href="./image/logo-header.svg"></use>
-</svg> -->
         <nav class="header-nav">
-            <ul>
-                <li class="header-nav__item"><a href="">Menu</a></li>
-                <li class="header-nav__item"><a href="">Recipes</a></li>
-                <li class="header-nav__item"><a href="">Chefs</a></li>
-                <li class="header-nav__item"><a href="">Contacts</a></li>
+            <div class="header__logo">
+            <svg width="25" height="24">
+                <use href="./image/svgicon.svg#logo-icon"></use>
+                </svg>
+                <svg width="174" height="11">
+                    <use href="./image/svgicon.svg#logo-text"></use>
+                    </svg>
+                </div>
+            <ul class="header-nav__list">
+                <li class="header-nav__item"><a class="header-nav__link" href="">Menu</a></li>
+                <li class="header-nav__item"><a class="header-nav__link" href="">Recipes</a></li>
+                <li class="header-nav__item"><a class="header-nav__link" href="">Chefs</a></li>
+                <li class="header-nav__item"><a class="header-nav__link" href="">Contacts</a></li>
             </ul>
+       
         </nav>
          </header>
 <h1 class="hero__title">Your favourite food
-    delivered hot & fresh</h1>  
-    <p class="hero__text">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
-    <button class="hero__button">Order Now</button>  
+    delivered hot & fresh</h1> 
+
+    <p class="hero__text">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &<br> marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+    
+    <button type="button" class="hero__button">Order Now</button>  
+
 <ul class="hero-ad">
     <li class="hero-ad__item">
 <a href="">Today 10:00 am - 7:00 pm <span class="hero-ad__span">Working hours</span></a>
