@@ -1,3 +1,8 @@
+.header{
+	border-bottom: 2px solid #ECECEC;
+    position: relative;
+}
+
 .header-nav{
 display: flex;
 align-items: center;
@@ -11,7 +16,6 @@ margin-right: 420px;
 
 
 .header-nav__item{
-	// color: red;
 border: #34C759;
 
 font-size: 14px;
@@ -45,7 +49,7 @@ text-decoration: none;
 	background-size: cover;
 	background-repeat: no-repeat;
 
-background-image: url(../image/placeholder.jpg);
+background-image:linear-gradient( rgba(33, 33, 33, 0.5),rgba(33, 33, 33, 0.5) ), url(../image/placeholder.jpg);
 }
 
 
@@ -97,6 +101,7 @@ margin-right: auto;
     margin-top: 70px;
     display: flex;
     justify-content: center;
+	
 }
 
 
@@ -117,5 +122,8 @@ margin-right: auto;
 	flex-direction: column;
 	justify-content: center;
 	flex-shrink: 0;
+}
+.icon-phone{
+	fill: rgba(255, 255, 255, 0.5);
 }
 
