@@ -296,4 +296,235 @@ body {
   margin-top: 90px;
   margin-left: 185px;
   margin-right: auto;
+}
+
+.work__title {
+  color: #D9D9D9;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 7.2px;
+  text-transform: capitalize;
+  background-image: url(../image/work-bg.png);
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.work__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work__thumb {
+  width: 255px;
+  height: 206px;
+  border-radius: 6px;
+  background: #252525;
+  padding: 24px 24px 60px 24px;
+}
+
+.work__thumb:hover {
+  background: #34C759;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.work__thumb:hover .work__pretitle {
+  color: #191919;
+}
+.work__thumb:hover .work__text {
+  color: #191919;
+}
+
+.work__pretitle {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.275px;
+  text-transform: capitalize;
+}
+
+.work__text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.162px;
+  margin-top: 36px;
+}
+
+.dishes__title {
+  color: #D9D9D9;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px; /* 250% */
+  letter-spacing: 7.2px;
+  background-image: url(../image/dishes-bg.png);
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dishes__list {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dishes__thumb {
+  width: 350px;
+  height: 493px;
+  border-radius: 6px;
+  background: #252525;
+}
+
+.dishes__card {
+  padding: 29px 30px 28px 30px;
+}
+
+.dishes__pretitle {
+  color: #D9D9D9;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.dishes__text {
+  color: #A4A8B2;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+}
+
+.dishes__pretext {
+  color: #85878C;
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.162px;
+  margin-top: 20px;
+}
+
+.dishes-btn {
+  border-radius: 43px;
+  min-width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #262626;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 196px;
+}
+
+.dishes-btn:hover {
+  background-color: #34C759;
+  color: #252525;
+}
+
+.chefs__title {
+  color: #D9D9D9;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px; /* 250% */
+  letter-spacing: 7.2px;
+  text-transform: capitalize;
+  background-image: url(../image/chefs-bg.png);
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.chefs__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 68px;
+}
+
+.chefs__card {
+  width: 350px;
+  height: 154px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.chefs__img {
+  width: 65px;
+  height: 65px;
+}
+
+.chefs__wrap {
+  margin-left: 24px;
+}
+
+.chefs__pretitle {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.225px;
+}
+
+.chefs__text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+  margin-top: 6px;
 }/*# sourceMappingURL=main.css.map */
