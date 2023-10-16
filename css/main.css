@@ -376,7 +376,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  line-height: 90px; /* 250% */
+  line-height: 90px;
   letter-spacing: 7.2px;
   background-image: url(../image/dishes-bg.png);
   margin-left: auto;
@@ -544,7 +544,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  line-height: 90px; /* 250% */
+  line-height: 90px;
   letter-spacing: 7.2px;
   background-image: url(../image/recipes-bg.jpg);
   margin-left: auto;
@@ -554,7 +554,7 @@ body {
 }
 
 .recipes__breakfast {
-  margin-top: 90px;
+  border-radius: 6px;
   padding: 65px 60px;
   width: 540px;
   height: 510px;
@@ -608,4 +608,149 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+
+.recipes__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 90px;
+}
+
+.recipes__lunch {
+  width: 540px;
+  height: 150px;
+  border-radius: 6px;
+  background: #252525;
+  padding: 30px 20px 25px 30px;
+}
+
+.recipes__lunch-text {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.recipes__text-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.recipes__lunch-pretext {
+  margin-right: 20px;
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background-image: url(../image/breakfast-color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipes__lunch-date {
+  color: #B3B3B3;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.recipes__dinner {
+  margin-top: 30px;
+  width: 540px;
+  height: 150px;
+  padding: 30px 20px 25px 30px;
+  border-radius: 6px;
+  background-image: url(../image/dinner-bg.png);
+}
+
+.recipes__dinner-text {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.recipes__dinner-pretext {
+  margin-right: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background-image: url(../image/breakfast-color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipes__dinner-date {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.recipes__sweets {
+  margin-top: 30px;
+  background: #34C759;
+  width: 540px;
+  height: 150px;
+  padding: 30px 20px 25px 30px;
+  border-radius: 6px;
+}
+
+.recipes__sweets-text {
+  color: #252525;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.recipes__sweets-pretext {
+  margin-right: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background-image: url(../image/breakfast-color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.recipes__sweets-date {
+  color: #1A1A1A;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }/*# sourceMappingURL=main.css.map */
