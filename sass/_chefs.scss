@@ -24,9 +24,13 @@ background-repeat: no-repeat;
     margin-top: 68px;
 }
 
+// .chefs__item{
+//     outline: solid 2px red;
+// }
+
 .chefs__card{
     width: 350px;
-height: 154px;
+// height: 154px;
 display: inline-flex;
 
 }
@@ -39,6 +43,7 @@ height: 65px;
 
 .chefs__wrap{
     margin-left: 24px;
+    min-height: 43px;
 }
 
 .chefs__pretitle{
@@ -63,4 +68,10 @@ line-height: 16px;
 letter-spacing: -0.15px;
 
 margin-top: 6px;
+}
+
+.chefs__img-wrap{
+    display: flex;
+    gap: 30px;
+    margin-top: 24px;
 }
