@@ -1,0 +1,31 @@
+.socials__title{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px;
+letter-spacing: 7.2px;
+
+background-image: url(../image/socials-bg.png);
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.socials__list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.socials__card{
+    width: 350px;
+height: 330px;
+border-radius: 6px;
+background: #252525;
+padding: 25px 25px 20px 30px;
+}
