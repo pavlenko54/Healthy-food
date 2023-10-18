@@ -17,6 +17,16 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+.chefs__title::after{
+	content: "";
+	display: block;
+	background-color:#34C759;
+	height: 2px;
+	width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .chefs__list{
   display: flex;
   justify-content: center;

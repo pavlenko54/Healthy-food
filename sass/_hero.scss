@@ -1,6 +1,13 @@
-.header{
-	border-bottom: 2px solid #ECECEC;
-    position: relative;
+// .header{
+
+// }
+
+.header::after{
+	content: "";
+	display: block;
+	background-color:#ECECEC ;
+	height: 2px;
+	width: 100%;
 }
 
 .header-nav{

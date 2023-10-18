@@ -1,6 +1,9 @@
-.header {
-  border-bottom: 2px solid #ECECEC;
-  position: relative;
+.header::after {
+  content: "";
+  display: block;
+  background-color: #ECECEC;
+  height: 2px;
+  width: 100%;
 }
 
 .header-nav {
@@ -315,6 +318,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.work__title::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .work__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -339,6 +352,14 @@ body {
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
 }
+.work__thumb:hover .work__pretitle::after {
+  content: "";
+  display: block;
+  background-color: #191919;
+  height: 2px;
+  width: 56px;
+  margin-top: 10px;
+}
 
 .work__thumb:hover .work__pretitle {
   color: #191919;
@@ -356,6 +377,15 @@ body {
   line-height: normal;
   letter-spacing: -0.275px;
   text-transform: capitalize;
+}
+
+.work__pretitle::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 56px;
+  margin-top: 10px;
 }
 
 .work__text {
@@ -383,6 +413,16 @@ body {
   margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.dishes__title::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .dishes__list {
@@ -480,6 +520,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.chefs__title::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .chefs__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,6 +601,16 @@ body {
   margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.recipes__title::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .recipes__breakfast {
@@ -769,6 +829,16 @@ body {
   margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.socials__title::after {
+  content: "";
+  display: block;
+  background-color: #34C759;
+  height: 2px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .socials__list {
