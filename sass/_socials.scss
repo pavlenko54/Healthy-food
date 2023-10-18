@@ -29,3 +29,93 @@ border-radius: 6px;
 background: #252525;
 padding: 25px 25px 20px 30px;
 }
+
+.socials__card-instagram{
+    width: 350px;
+    height: 330px;
+    border-radius: 6px;
+    background: #252525;
+}
+
+.socials__header-instagram{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 25px;
+}
+
+
+.socials__header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.socials__icon{
+    fill: #737373;
+margin-right: 20px;
+
+
+}
+
+.socials__card-title{
+    color: #BFBFBF;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.socials__btn{
+    margin-left: 86px;
+    color: #737373;
+    background: #262626;
+    
+   
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 10px;
+font-style: normal;
+font-weight: 900;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.socials__date{
+    color: #737373;
+
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+}
+
+.socials__text{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 10px;
+
+}
+
+.socials__mail{
+    color: #34C759;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+}
+
+.instagram-img{
+    display: flex;
+    flex-wrap: wrap;
+}
