@@ -4,6 +4,7 @@
   background-color: #ECECEC;
   height: 2px;
   width: 100%;
+  position: relative;
 }
 
 .header-nav {
@@ -19,7 +20,7 @@
 }
 
 .header__logo {
-  margin-right: 420px;
+  margin-right: 700px;
 }
 
 .header-nav__item {
@@ -111,6 +112,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 160px;
+  margin-top: 70px;
 }
 
 .hero-ad__span {
@@ -447,6 +456,12 @@ body {
 
 .dishes__card {
   padding: 29px 30px 28px 30px;
+}
+
+.dishes__img {
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .dishes__pretitle {
@@ -972,7 +987,18 @@ body {
 }
 
 .footer__wrap {
+  padding-top: 33px;
+  padding-bottom: 33px;
   width: 215px;
+}
+
+.footer__container::after {
+  content: "";
+  display: block;
+  background-color: #303030;
+  height: 2px;
+  width: 100%;
+  position: relative;
 }
 
 .footer__logo-text {
@@ -1011,7 +1037,6 @@ body {
 }
 
 .footer__logo {
-  margin-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1025,4 +1050,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

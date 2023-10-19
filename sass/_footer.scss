@@ -14,9 +14,19 @@
 }
 
 .footer__wrap{
-
+padding-top: 33px;
+padding-bottom: 33px;
     width: 215px;
 
+}
+
+.footer__container::after{
+	content: "";
+	display: block;
+	background-color:#303030;
+	height: 2px;
+	width: 100%;
+	position: relative;
 }
 
 
@@ -60,11 +70,13 @@ line-height: 30px;
 }
 
 .footer__logo{
-    margin-top: 75px;
+    // margin-top: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
 
 
 }
