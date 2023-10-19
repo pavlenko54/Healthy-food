@@ -126,6 +126,9 @@
   display: flex;
   gap: 160px;
   margin-top: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero-ad__span {
