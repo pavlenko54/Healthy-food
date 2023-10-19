@@ -5,6 +5,12 @@
   height: 2px;
   width: 100%;
   position: relative;
+  opacity: 0.1;
+}
+
+.test {
+  padding-left: 165px;
+  padding-right: 165px;
 }
 
 .header-nav {
@@ -20,7 +26,7 @@
 }
 
 .header__logo {
-  margin-right: 700px;
+  margin-right: 420px;
 }
 
 .header-nav__item {
@@ -261,6 +267,10 @@ body {
   --black-color: rgba(26, 26, 26, 1);
   --dark-grey-color:rgba(37, 37, 37, 1);
   --light-gray-color:rgba(115, 115, 115, 1);
+}
+
+.about {
+  margin-top: -264px;
 }
 
 .about__wrap {
