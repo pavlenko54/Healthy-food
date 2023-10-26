@@ -37,11 +37,28 @@ background-repeat: no-repeat;
 height: 493px;
 border-radius: 6px;
 background: #252525;
+position: relative;
 
 }
 
 .dishes__card{
     padding: 29px 30px 28px 30px;
+   
+}
+
+.dishes__link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dishes__icon-test{
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    fill: #FFFFFF;
 }
 
 .dishes__img{
