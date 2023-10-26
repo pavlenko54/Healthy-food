@@ -83,6 +83,32 @@ letter-spacing: -0.162px;
 margin-top: 20px;
 }
 
+.dishes__wrap{
+    margin-top: 20px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+}
+
+.dishes__icon-stars{
+    fill: #4D4D4D;
+}
+
+.dishes__icon-stars:hover{
+    fill: #F9AD3D;
+}
+
+.dishes__rating{
+    color: #B3B3B3;
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 1.5px;
+margin-left: 14px;
+}
+
 .dishes-btn{
   border-radius: 43px;
    min-width: 100px;
@@ -100,8 +126,8 @@ background-color: #262626;
     letter-spacing: 2px;
     text-transform: uppercase;
 
-margin-top: 20px;
-margin-left: 196px;
+
+margin-left: 43px;
 
 }
 
