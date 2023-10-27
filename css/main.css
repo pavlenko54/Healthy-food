@@ -695,12 +695,37 @@ body {
 }
 
 .recipes__breakfast {
+  position: relative;
   border-radius: 6px;
   padding: 65px 60px;
   width: 540px;
   height: 510px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 38, 38, 0)), to(rgba(38, 38, 38, 0.5))), url(../image/recipes-breakfast.jpg);
   background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0%, rgba(38, 38, 38, 0.5) 100%), url(../image/recipes-breakfast.jpg);
+}
+
+.recipes__icon-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px;
+}
+
+.recipes__icon-undo {
+  top: 131px;
+  left: 133px;
+  fill: #FFF;
 }
 
 .recipes__breakfast-btn {
@@ -748,6 +773,37 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: 400;
+  line-height: 30px;
+}
+
+.recipes__breakfast-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 68px;
+}
+
+.recipes__breakfast-eye {
+  fill: #FFFFFF;
+}
+
+.recipes__breakfast-bubbles {
+  fill: #FFFFFF;
+}
+
+.recipes__breakfast-mess {
+  color: #FFF;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 30px;
 }
 
