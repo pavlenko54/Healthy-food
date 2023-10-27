@@ -48,18 +48,21 @@ position: relative;
 }
 
 .dishes__link{
-    outline: 2px solid red;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
     background: #000;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    opacity: 0.3;
 }
 
-.dishes__icon-test{
-    position: absolute;
-    top: 34px;
-    right: 34px;
+.dishes__icon-redo{
     fill: #FFFFFF;
-    outline: 2px solid red;
 }
 
 .dishes__img{
@@ -104,7 +107,6 @@ margin-top: 20px;
 .dishes__wrap{
     margin-top: 20px;
     display: flex;
-    // justify-content: center;
     align-items: center;
 }
 
@@ -128,6 +130,7 @@ margin-left: 14px;
 }
 
 .dishes-btn{
+border: solid 2px #303030;;
   border-radius: 43px;
    min-width: 100px;
 height: 40px;
@@ -152,4 +155,5 @@ margin-left: 43px;
 .dishes-btn:hover{
     background-color: #34C759;
     color:  #252525;
+    border: none;
 }

@@ -93,9 +93,12 @@ line-height: 30px;
 }
 
 .socials__btn{
-    margin-left: 86px;
+    min-width: 120px;
+    margin-left: 56px;
     color: #737373;
     background: #262626;
+    border: solid 1px #303030;
+  border-radius: 63px;
     
    
 text-align: center;
@@ -143,4 +146,29 @@ margin-top: 20px;
 .instagram-img{
     display: flex;
     flex-wrap: wrap;
+}
+
+.socials__card-instagram{
+    position: relative;
+}
+
+.socials__icon-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #34C759;
+    position: absolute;
+    top: 131px;
+    right: 158px;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+
+}
+
+.socials__icon-undo{
+
+top: 131px;
+left: 133px;
+fill: #737373;
 }

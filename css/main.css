@@ -473,18 +473,25 @@ body {
 }
 
 .dishes__link {
-  outline: 2px solid red;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
   background: #000;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px;
+  opacity: 0.3;
 }
 
-.dishes__icon-test {
-  position: absolute;
-  top: 34px;
-  right: 34px;
+.dishes__icon-redo {
   fill: #FFFFFF;
-  outline: 2px solid red;
 }
 
 .dishes__img {
@@ -553,6 +560,7 @@ body {
 }
 
 .dishes-btn {
+  border: solid 2px #303030;
   border-radius: 43px;
   min-width: 100px;
   height: 40px;
@@ -573,6 +581,7 @@ body {
 .dishes-btn:hover {
   background-color: #34C759;
   color: #252525;
+  border: none;
 }
 
 .chefs__title {
@@ -990,9 +999,12 @@ body {
 }
 
 .socials__btn {
-  margin-left: 86px;
+  min-width: 120px;
+  margin-left: 56px;
   color: #737373;
   background: #262626;
+  border: solid 1px #303030;
+  border-radius: 63px;
   text-align: center;
   font-family: Helvetica Neue;
   font-size: 10px;
@@ -1039,6 +1051,33 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.socials__card-instagram {
+  position: relative;
+}
+
+.socials__icon-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #34C759;
+  position: absolute;
+  top: 131px;
+  right: 158px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px;
+}
+
+.socials__icon-undo {
+  top: 131px;
+  left: 133px;
+  fill: #737373;
 }
 
 .footer {
