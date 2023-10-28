@@ -13,6 +13,7 @@ margin-left: auto;
 margin-right: auto;
 background-position: center;
 background-repeat: no-repeat;
+position: relative;
 }
 
 .socials__title::after{
@@ -23,6 +24,9 @@ background-repeat: no-repeat;
 	width: 60px;
     margin-right: auto;
     margin-left: auto;
+    position: absolute;
+    left: 600px;
+    bottom: -28px;
 }
 
 .socials__list{
@@ -109,6 +113,11 @@ font-weight: 900;
 line-height: 40px;
 letter-spacing: 2px;
 text-transform: uppercase;
+}
+
+.socials__btn:hover{
+    background: #34C759;
+    border: none;
 }
 
 .socials__date{
